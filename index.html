@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
-    <link rel="stylesheet" href="Styles.css">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="Styles/Styles.css">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/vars.css">
+    <link rel="stylesheet" href="Styles/main.css">
     
          <!-- Links para trazer os ícones via CDN -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"/>
@@ -62,5 +64,28 @@
             </div>
         </div>
     </div>
+    <main>
+        <div class="main-contaner">
+            <nav class="header_navigation">
+                <div class="navigation">
+                    <button class="arrow-left">
+                        <img src="documentos curso HTML/icons/small-left.png" alt="seta esquerda">
+                    </button>
+                    <button class="arrow-right">
+                        <img src="documentos curso HTML/icons/small-right.png" alt="seta esquerda">
+                    </button>
+                </div>
+                    <div class="header_search">
+                    <img src="Documentos curso HTML/icons/search.png" alt="">
+                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?"/>
+                     </div>
+                     <div class="header_login">
+                        <button class="subscribe">inscreva-se</button>
+                        <button class="login">entrar</button>
+                     </div>
+            </nav>
+        </div>
+       </div>
+    </main>
 </body>
 </html>
